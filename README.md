@@ -24,5 +24,8 @@ cmake --build .
 ```bash
 cmake --build . --target view
 ```
-### Preview for now
+### Preview for AntiAlias
 ![Current working version](image-2.png)
+
+### Preview for Diffusion + AntiAliasing
+![Current Working Version](image-1.png)
