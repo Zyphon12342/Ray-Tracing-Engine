@@ -1,4 +1,4 @@
-#BLUE-WHITE gradient using rays
+# BLUE-WHITE gradient using rays
 
 ### 1. Configure and build the project
 ```bash
