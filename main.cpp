@@ -6,7 +6,7 @@
 #include <iostream>
 
 
-bool hit_sphere(const point3& center, double radius, const ray& r) {
+double hit_sphere(const point3& center, double radius, const ray& r) {
     vec3 oc = center - r.origin();
     auto a = dot(r.direction(), r.direction());
     auto b = -2.0 * dot(r.direction(), oc);
@@ -19,15 +19,23 @@ bool hit_sphere(const point3& center, double radius, const ray& r) {
         D == 0, One intersection tangential
         D < 0, No solution / intersection
     */
-   return (discriminant >= 0);
+    if (discriminant < 0) {
+        return -1.0;
+    } else{
+        return (-b -std::sqrt(discriminant)) / (2.0 * a);
+    }
 }
 
 
 color ray_color(const ray& r) {
+    auto t = hit_sphere(point3(0,0,-1), 0.5, r);
     // Rendering sphere with hard coded radius
-    if(hit_sphere(point3(0,0,-1), 0.5, r)) {
-        return color(1,0,0);
+    
+    if(t > 0.0) {
+        vec3 N = unit_vector(r.at(t) - vec3(0,0,-1));
+        return 0.5*color(N.x()+1, N.y()+1, N.z()+1);
     }
+
     // using a lerp(linear interpolation) b/w 2 values (blue and white) to linearly blend to values
     vec3 unit_direction = unit_vector(r.direction());
     auto a = 0.5*(unit_direction.y() + 1.0);
