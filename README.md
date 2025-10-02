@@ -1,4 +1,4 @@
-# TWO SPHERES on Blue-White gradient using rays
+# TWO SPHERES on Blue-White gradient using rays and AntiAliasing
 
 ### 1. Configure and build the project
 ```bash
@@ -25,4 +25,4 @@ cmake --build .
 cmake --build . --target view
 ```
 ### Preview for now
-![this is the current working version](image.png)
+![Current working version](image-2.png)
