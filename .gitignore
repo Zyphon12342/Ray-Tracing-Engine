@@ -1,5 +1,19 @@
-.vscode
+# CMake build directory
+/build/
+CMakeCache.txt
+CMakeFiles/
 
-# My compiled stuff
+# Compiled objects
+*.o
+*.obj
+
+# Compiled binaries
 main
-image.ppm
+*.exe
+*.out
+
+# Generated images
+*.ppm
+
+#vscode
+.vscode
