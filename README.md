@@ -1,4 +1,4 @@
-# BLUE-WHITE gradient using rays
+# TWO SPHERES on Blue-White gradient using rays
 
 ### 1. Configure and build the project
 ```bash
