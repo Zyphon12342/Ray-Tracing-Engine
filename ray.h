@@ -6,10 +6,6 @@
 #include "color.h"
 #include <iostream>
 
-color color_ray_color(const ray& r) {
-    return color(0,0,0); 
-}
-
 
 class ray {
     private: 
