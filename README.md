@@ -1,4 +1,4 @@
-# TWO SPHERES on Blue-White gradient using rays and AntiAliasing
+# TWO SPHERES on Blue-White gradient using rays and AntiAliasing + Diffusion
 
 ### 1. Configure and build the project
 ```bash
