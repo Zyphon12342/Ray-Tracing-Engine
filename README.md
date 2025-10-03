@@ -24,7 +24,8 @@ cmake --build .
 ```bash
 cmake --build . --target view
 ```
-
+### Preview for Metal + lambart materials interacting + all previous concepts
+![Metal + lamber](image-5.png)
 ### Preview for AntiAliasing + diffusion(with recursion limit) + gamma correction + lambert reflection (bias)
 ![Current working model](image-4.png)
 
@@ -35,3 +36,4 @@ cmake --build . --target view
 
 ### Preview for AntiAlias
 ![Current working version](image-2.png)
+
