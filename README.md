@@ -1,4 +1,4 @@
-# TWO SPHERES on Blue-White gradient using rays and AntiAliasing + Diffusion
+# TWO SPHERES on Blue-White gradient using rays and AntiAliasing + Diffusion + Gamma Correction + Lambert Reflection
 
 ### 1. Configure and build the project
 ```bash
@@ -24,10 +24,14 @@ cmake --build .
 ```bash
 cmake --build . --target view
 ```
-### Preview for AntiAlias
-![Current working version](image-2.png)
+
+### Preview for AntiAliasing + diffusion(with recursion limit) + gamma correction + lambert reflection (bias)
+![Current working model](image-4.png)
 
 ### Preview for Diffusion + AntiAliasing
 ![Current Working Version](image-1.png)
 #### With recursion limit
 ![Alt img with Recursion depth set](image-3.png)
+
+### Preview for AntiAlias
+![Current working version](image-2.png)
