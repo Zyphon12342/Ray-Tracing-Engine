@@ -24,6 +24,10 @@ cmake --build .
 ```bash
 cmake --build . --target view
 ```
+
+## 90 vs 115 vFOV for same picture
+![90VFOV](assets/90VFOV.png)
+![115VFOV](assets/115VFOV.png)
 ### Preview for Metal + lambart materials interacting + all previous concepts
 ![Metal + lamber](assets/image-5.png)
 
@@ -33,8 +37,6 @@ cmake --build . --target view
 ### Preview for AntiAliasing + diffusion(with recursion limit) + gamma correction + lambert reflection (bias)
 ![Current working model](assets/image-4.png)
 
-### Preview for Diffusion + AntiAliasing
-![Current Working Version](assets/image-1.png)
 
 
 

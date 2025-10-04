@@ -11,7 +11,7 @@ class camera {
     int    image_width  = 100;  // Rendered image width in pixel panel
     int samples_per_pixel = 10; // Count of random samples for each pixel
     int max_depth = 10;         // Max number of ray bounces in a scene
-
+    double vfov = 100;           // Maximum nymber of ray bounces into scene
     void render(const hittable& world) {
         initialize();
 
@@ -20,7 +20,7 @@ class camera {
         std::cout << "P3\n" << image_width << " " << image_height << "\n255\n"; 
 
         for(int j = 0; j < image_height; j++) {
-            std::clog << "\rScanLines remaining: " << (image_height - j) << ' ' << "\n255\n"; 
+            std::clog << "\rScanLines remaining: " << (image_height - j) << ' '; 
             for(int i = 0; i < image_width; i++) {
                 color pixel_color(0,0,0);
                 for(int sample = 0; sample < samples_per_pixel; sample++) {
@@ -56,9 +56,11 @@ class camera {
         center = point3(0,0,0);
         // Distance from the eye(origin) to the viewport center(origin)
         
-        
+        // Determine Viewport Dimensions
         auto focal_length = 1.0; 
-        auto viewport_height = 2.0; 
+        auto theta = degrees_to_radians(vfov);
+        auto h = std::tan(theta/2);
+        auto viewport_height = 2 * h * focal_length;
         auto viewport_width = viewport_height * (double(image_width)/ image_height);
         
         
