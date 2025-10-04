@@ -1,4 +1,4 @@
-# TWO SPHERES on Blue-White gradient using rays and AntiAliasing + Diffusion + Gamma Correction + Lambert Reflection
+# Material SPHERES interacting on Blue-White gradient using rays and AntiAliasing + Diffusion + Gamma Correction + Lambert Reflection
 
 ### 1. Configure and build the project
 ```bash
