@@ -36,8 +36,6 @@ cmake --build . --target view
 ### Preview for Diffusion + AntiAliasing
 ![Current Working Version](assets/image-1.png)
 
-#### With recursion limit
-![Alt img with Recursion depth set](assets/image-3.png)
 
 
 
