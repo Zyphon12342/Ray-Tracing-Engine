@@ -24,6 +24,9 @@ cmake --build .
 ```bash
 cmake --build . --target view
 ```
+### Preview of Depth of field effect (Defocus_Blur)
+![defocus blur](assets/defcosballs.png)
+
 ### Camera rotation + VFOV
 <p>
   <img src="assets/rotatefar.png" alt="90° VFOV" width="45%" style="margin-right:10px;">
@@ -39,8 +42,7 @@ cmake --build . --target view
 ### Preview for Glass ball refraction (With TIR) with Schlick's Approximation
 ![Glass material refraction](assets/SchlicksTIR.png)
 
-### Preview for AntiAliasing + diffusion(with recursion limit) + gamma correction + lambert reflection (bias)
-![Current working model](assets/image-4.png)
+
 
 
 
