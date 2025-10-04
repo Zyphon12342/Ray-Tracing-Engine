@@ -25,19 +25,19 @@ cmake --build .
 cmake --build . --target view
 ```
 ### Preview for Metal + lambart materials interacting + all previous concepts
-![Metal + lamber](image-5.png)
+![Metal + lamber](assets/image-5.png)
 
 ### Preview for Glass ball refraction
-![Glass material refraction](image-7.png)
+![Glass material refraction](assets/image-7.png)
 
 ### Preview for AntiAliasing + diffusion(with recursion limit) + gamma correction + lambert reflection (bias)
-![Current working model](image-4.png)
+![Current working model](assets/image-4.png)
 
 ### Preview for Diffusion + AntiAliasing
-![Current Working Version](image-1.png)
+![Current Working Version](assets/image-1.png)
 
 #### With recursion limit
-![Alt img with Recursion depth set](image-3.png)
+![Alt img with Recursion depth set](assets/image-3.png)
 
 
 
