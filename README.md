@@ -24,12 +24,17 @@ cmake --build .
 ```bash
 cmake --build . --target view
 ```
+### Camera rotation + VFOV
+<p>
+  <img src="assets/rotatefar.png" alt="90° VFOV" width="45%" style="margin-right:10px;">
+  <img src="assets/rotateclose.png" alt="115° VFOV" width="45%">
+</p>
 
-## 90 vs 115 vFOV for same picture
-![90VFOV](assets/90VFOV.png)
-![115VFOV](assets/115VFOV.png)
-### Preview for Metal + lambart materials interacting + all previous concepts
-![Metal + lamber](assets/image-5.png)
+### 90 vs 115 vFOV for same picture
+<p>
+  <img src="assets/90VFOV.png" alt="90° VFOV" width="45%" style="margin-right:10px;">
+  <img src="assets/115VFOV.png" alt="115° VFOV" width="45%">
+</p>
 
 ### Preview for Glass ball refraction (With TIR) with Schlick's Approximation
 ![Glass material refraction](assets/SchlicksTIR.png)
