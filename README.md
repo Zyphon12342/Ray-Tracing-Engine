@@ -27,8 +27,8 @@ cmake --build . --target view
 ### Preview for Metal + lambart materials interacting + all previous concepts
 ![Metal + lamber](assets/image-5.png)
 
-### Preview for Glass ball refraction
-![Glass material refraction](assets/image-7.png)
+### Preview for Glass ball refraction (With TIR) with Schlick's Approximation
+![Glass material refraction](assets/SchlicksTIR.png)
 
 ### Preview for AntiAliasing + diffusion(with recursion limit) + gamma correction + lambert reflection (bias)
 ![Current working model](assets/image-4.png)
