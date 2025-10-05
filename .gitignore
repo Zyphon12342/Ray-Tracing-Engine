@@ -1,0 +1,19 @@
+# CMake build directory
+/build/
+CMakeCache.txt
+CMakeFiles/
+
+# Compiled objects
+*.o
+*.obj
+
+# Compiled binaries
+main
+*.exe
+*.out
+
+# Generated images
+*.ppm
+
+#vscode
+.vscode
